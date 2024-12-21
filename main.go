@@ -19,5 +19,11 @@ func main() {
 		})
 	})
 
+	r.GET("/john1", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"john": "doe",
+		})
+	})
+
 	r.Run()
 }
