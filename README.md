@@ -1,3 +1,3 @@
 # release-concept
 
-This is a golang project
+This is a golang project using gin
